@@ -1,2 +1,2 @@
-# files_blogger
+# Files Blogger
 This repository contains some css and javascript code related to the blog. (Prism syntax highlighting tools)
