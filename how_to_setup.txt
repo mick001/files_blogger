@@ -1,0 +1,18 @@
+How to set up highlighter in Blogger
+
+1. Go to http://prismjs.com/download.html
+2. Download customized .js and .css files at the bottom of the page
+3. Go to Blogger, download and backup the xml template
+4. Make a copy of the xml template.
+5. In the copy
+paste <script src='https://raw.githubusercontent.com/yourGitHubUserName/yourRepository/master/prism.js'></script> before the </body> tag.
+paste <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/yourGitHubUserName/yourRepository/master/prism.css"/> after the <head> tag.
+6. Upload new template to Blogger.
+7. Check that everything loads fine.
+8. When writing new articles add code in between of:
+<pre class="line-numbers"><code class="language-python">
+# Your code
+</code></pre>
+9. Escape HTML special characters (for instance using R you often use "<-") using http://accessify.com/tools-and-wizards/developer-tools/quick-escape/default.php
+10. Check that everything is working fine.
+11. Done!
