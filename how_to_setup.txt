@@ -1,5 +1,9 @@
 How to set up highlighter in Blogger
 
+/*
+This is a reminder to myself, NOT a guide or a tutorial.
+*/
+
 1. Go to http://prismjs.com/download.html
 2. Download customized .js and .css files at the bottom of the page
 3. Go to Blogger, download and backup the xml template
